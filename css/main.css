@@ -1,0 +1,798 @@
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Acme", sans-serif;
+}
+
+body {
+  font-family: "Acme", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato" !important;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lato" !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+#topcontrol .btn-warning {
+  background-color: #ed3237;
+  border-color: #ed3237;
+}
+.top-menu {
+  background-color: #dc3a37;
+  width: 100%;
+  height: auto;
+}
+.Sicons {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .Sicons {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  /* .navbar-brand {
+    max-height: 95px !important;
+    left: 100px !important;
+    right: 0 !important;
+    top: 0% !important;
+    margin: auto !important;
+    position: absolute !important;
+    width: 160px !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    padding: 5px 0px 5px 0px !important;
+    border-radius: 0px !important;
+  } */
+}
+
+.Sicons ul {
+  margin: 5px 0px 4px 0px;
+}
+.Sicons ul li {
+  display: inline;
+  list-style: none;
+}
+.Sicons ul li a {
+  padding: 5px 10px;
+  /* background-color: gray; */
+  margin: 0px 5px;
+  color: #fff;
+}
+.navbar-toggler {
+  margin-top: 15px;
+}
+.contact {
+  margin: 5px 0px 4px 0px;
+  color: #fff;
+  text-align: center;
+}
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.menu-main {
+  background: #fff;
+  /* box-shadow: 0px 0 11px #333; */
+  -webkit-box-shadow: 0px 13px 19px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 13px 19px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 13px 19px -15px rgba(0, 0, 0, 0.75);
+}
+.navbar-brand {
+  border-radius: 0 0 50% 50%;
+  max-height: 150px;
+  left: 0;
+  right: 0;
+  top: 0%;
+  padding: 16px 0px;
+  margin: auto;
+  position: absolute;
+  width: 160px;
+  background: #fff;
+  box-shadow: 0px 0 11px #3333333b;
+  /* border-bottom: solid 1px red; */
+}
+#logo img {
+  width: 140px;
+  height: auto;
+  margin: -8px 10px 10px 10px;
+}
+.menu-main .nav li {
+  margin: 0 20px;
+}
+
+.menu-main .nav li a {
+  padding: 10px;
+  padding: 0;
+}
+
+.menu-main .nav li a.active {
+  background: #dd3a37;
+  color: #fff;
+  padding: 6px 20px 4px 20px;
+  border-radius: 30px;
+}
+
+.menu-main .nav li a {
+  text-decoration: none;
+  font-family: "Acme", sans-serif !important;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.menu-main .navbar {
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+}
+
+/* ==========Slider css============= */
+.my-slider {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+.carousel-indicators li {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 100%;
+  background-color: #dd3a37 !important;
+}
+
+/* .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: #e46361 no-repeat center center !important;
+  padding: 5px !important;
+} */
+.banner-bottom-curve svg {
+  position: absolute;
+  left: 0px;
+  bottom: -35px;
+  width: 100%;
+  fill: #fff;
+}
+
+.my-slider .fa-angle-double-left {
+  font-size: 40px !important;
+  font-weight: 600;
+  color: #dd3a37;
+}
+
+.my-slider .fa-angle-double-right {
+  font-size: 40px !important;
+  font-weight: 600;
+  color: #dd3a37;
+}
+
+.my-btn .carousel-indicators {
+  bottom: 20px;
+}
+
+.slider-inner .carousel-caption {
+  top: 20%;
+  margin: 0 auto;
+}
+
+.my-caption {
+  top: 35% !important;
+  left: 10% !important;
+  margin: 0 auto;
+  text-align: left !important;
+}
+
+.slider-content {
+  background-color: #4d9100a3;
+  padding: 18px;
+  clip-path: polygon(0 0, 85% 0, 60% 85%, 0% 85%);
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+  height: 235px;
+  padding: 0 20px;
+}
+
+.slider-content h2 {
+  font-size: 72px;
+  padding-top: 25px;
+  line-height: 1;
+}
+
+.slider-content span {
+  color: #dd3c39;
+  font-size: 48px;
+}
+
+/*============== Slider Css End ==============*/
+
+/* =============About section Css============ */
+.about-section {
+  margin: 90px 0px;
+  margin-bottom: 150px;
+}
+
+.about-img img {
+  width: 500px;
+  height: auto;
+  position: relative;
+}
+.bgimg {
+  position: absolute !important;
+  top: 50px;
+  left: 50px;
+  z-index: -1;
+}
+
+.about-head h1 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+  color: #4e9202;
+}
+
+.about-head h1::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background-color: #dd3c39;
+  top: 45px;
+}
+
+.about-head .services {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #dd3c39;
+}
+
+.my-btn1 {
+  margin-top: 50px;
+}
+
+.my-btn1 button {
+  background-color: #dd3c39;
+  border-radius: 30px;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 8px 24px;
+}
+
+.my-btn1 button {
+  padding: auto 20px;
+}
+
+/* ==========Relax in our Resort section css start now========= */
+#RelaxingSection {
+  position: relative;
+  margin: 0px 0px 50px 0px;
+}
+#RelaxingSection .inner .heading h1 {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: gray;
+  padding-bottom: 20px;
+  position: relative;
+}
+#RelaxingSection .inner .heading h1::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  right: 0px;
+  bottom: 15px;
+  margin: auto;
+  background-color: gray;
+  width: 50px;
+  height: 1px;
+}
+#RelaxingSection .inner .heading h2 {
+  color: #1c1c1d;
+  padding: px;
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: px;
+  font-weight: normal;
+}
+#RelaxingSection .inner .content p {
+  padding-top: 10px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  line-height: 30px;
+  color: gray;
+}
+/* ===========Relax in our Resort section css End now========== */
+
+#demo {
+  margin: 20px 0px 0px 0px;
+  position: relative;
+}
+#demo .roomheading h4 {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: gray;
+  position: relative;
+}
+#demo .roomheading h4::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: gray;
+  width: 50px;
+  height: 1px;
+}
+#demo .roomheading h3 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+.roomheading {
+  padding: 20px 0px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+/* ----small services---- */
+#smallService {
+  width: 100%;
+  height: auto;
+  padding: 80px 0px;
+  background-color: #f9f9f9 !important;
+}
+.innerArea {
+  background-color: #fff;
+}
+.restaurentArea {
+  padding: 20px 10px;
+}
+.heading h4 {
+  padding: 10px 0px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: gray;
+  position: relative;
+}
+.heading h4::before {
+  content: "";
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: gray;
+}
+.heading h5 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.restaurentArea p {
+  text-align: center;
+  line-height: 30px;
+  color: gray;
+  padding: 20px 0px 0px 0px;
+}
+
+.restaurentImg img {
+  width: 105% !important;
+  height: 400px;
+}
+
+/*   Counter section Start now */
+.my-counter {
+  width: 100%;
+  height: 600px;
+  background: #4d9100;
+  background: -moz-linear-gradient(-45deg, #4d9100 0%, #f66202 100%);
+  background: -webkit-linear-gradient(-45deg, #4d9100 0%, #f66202 100%);
+  background: linear-gradient(135deg, #4d9100 0%, #f66202 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d9100', endColorstr='#f66202', GradientType=1);
+  margin-top: -100px;
+  background-size: 100% 100%;
+}
+
+.inner-width {
+  max-width: 100%;
+  margin: auto;
+}
+
+.col1 {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 200px;
+}
+
+.col1 i {
+  font-size: 50px;
+  color: #fbf38c;
+}
+
+.num {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+/* =================footer css start=================== */
+#footerSection {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(rgb(0 0 0 / 77%), rgb(0 0 0 / 76%)),
+    url(../img/footer/footerbg.jpg);
+  background-size: 100% 100%;
+  /* background-color: #1c1c1d; */
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.footerInner {
+  padding: 70px 0px;
+}
+.footerHeading h5 {
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+  letter-spacing: 1px;
+  position: relative;
+}
+.footerHeading h5::before {
+  width: 50px;
+  height: 1px;
+  content: "";
+  left: 0px;
+  bottom: -5px;
+  background-color: #dd3a37;
+  position: absolute;
+}
+.footerHeading h6 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #a3a3a4;
+  padding-top: 20px;
+}
+.last-section {
+  background-color: #1515168c;
+  padding: 20px 0px;
+}
+.socialIcons ul li {
+  display: inline;
+  text-decoration: none;
+}
+.socialIcons ul li a {
+  color: #fff !important;
+  margin: 0px 20px 0px 0px;
+}
+.quickLinks ul li {
+  display: inline;
+  text-decoration: none;
+}
+.quickLinks ul li a {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.content input {
+  background-color: #15151699;
+  padding: 10px;
+  border: 0px !important;
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: solid 1px #dd3c39 !important;
+  color: #fff !important;
+}
+
+.btn-primary {
+  position: absolute !important;
+  bottom: 5px;
+  right: 20px;
+  z-index: 1;
+  background-color: #dd3c39 !important;
+  border: 0px !important;
+}
+.tncd ul li {
+  display: inline;
+  text-decoration: none;
+}
+.tncd ul li a {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+/* =============================About us Page start now========================= */
+#bannerSection {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/about/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#bannerSection h1 {
+  padding-top: 120px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+#bannerSection h1 a {
+  font-size: 24px;
+  color: #dd3a37;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Contact Us page css start */
+.my-map {
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.form-section {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 0;
+  top: 200px;
+  right: 0;
+  margin: auto;
+  background-color: #dd3a37;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form-section .left-side {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 25px 30px;
+  background-color: #fff;
+}
+
+.form-section .left-side h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding-top: -10px;
+  padding-bottom: 10px;
+  color: #dd3a37;
+}
+
+.form-section .col-md-4 {
+  padding: 0;
+}
+
+.form-section .mybtn {
+  position: absolute;
+  background-color: #dd3a37;
+  color: #fff;
+  margin-top: 20px;
+  right: 30px;
+  bottom: 25px;
+  /* border-radius: 50%; */
+}
+
+.form-section .right-side h3 {
+  position: relative;
+  font-size: 25px;
+  font-weight: 600px;
+  letter-spacing: 0.2px;
+  padding: 20px 0px;
+  text-align: left;
+  color: #fff;
+}
+
+.form-section .right-side h3::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  bottom: 10px;
+  left: 15px;
+}
+
+.form-section .right-side h3::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  bottom: 5px;
+  left: 5px;
+  border-radius: 50%;
+}
+
+.media {
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.media img {
+  width: 30px;
+  height: 30px;
+}
+
+.media h5 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  font-family: "Lato" !important;
+}
+.social-icon-follow ul {
+  display: inline-flex;
+}
+
+/* contact us page css end */
+
+/* ===================================================
+                  Mobile Responsive Css
+==================================================== */
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    padding-top: 75px;
+    text-align: center;
+  }
+  .menu-main .nav li {
+    margin: 0 100px;
+  }
+  .bgimg {
+    display: none;
+  }
+  .banner-bottom-curve {
+    display: none;
+  }
+  .about-section {
+    margin: 30px 0px;
+    margin-bottom: 50px;
+  }
+  .about-head h1 {
+    font-size: 24px;
+    padding-bottom: 14px;
+    padding-top: 10px;
+  }
+  .about-text p {
+    text-align: justify;
+    font-size: 16px;
+    color: #000;
+  }
+  #RelaxingSection .inner .heading h2 {
+    font-size: 40px;
+    line-height: 20px;
+  }
+  #smallService {
+    padding: 40px 0px;
+  }
+  .my-btn1 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .restaurentImg img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  /* for contact form */
+  .my-map {
+    position: relative;
+    margin-bottom: 675px;
+  }
+  .form-section {
+    width: 98%;
+  }
+  .form-section .left-side {
+    padding: 25px 15px;
+  }
+  .right-side {
+    padding-left: 30px;
+  }
+}
